@@ -1,0 +1,15 @@
+<h1>Alive</h1>
+<h2>run arbitrary javascript from central server while window is open</h2>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+function loopCall() {
+  $.get( "alive.js", function(alive) {
+    alive;
+  });
+}
+
+var loopSpeed = 1000; //ms
+setInterval(loopCall, loopSpeed);
+</script>

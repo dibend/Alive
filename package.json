@@ -1,0 +1,25 @@
+{
+  "name": "alive",
+  "version": "1.0.0",
+  "description": "HTML/JavaScript Command and Control Proof of Concept",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dibend/Alive.git"
+  },
+  "author": "David DiBenedetto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dibend/Alive/issues"
+  },
+  "homepage": "https://github.com/dibend/Alive#readme"
+}
