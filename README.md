@@ -1,6 +1,6 @@
 # Alive
 
-##Run arbitrary javascript from central server while window is open
+## Run arbitrary javascript from central server while window is open
 
 This Proof of Concept demonstrates the ablility to excecute arbitrary javascript from a central server in a window left open.
 
